@@ -55,7 +55,7 @@ Chaque nœud se trouve dans la catégorie `loaders/nunchaku_stackers` après ins
 
 Les LoRAs sont appliqués dans l'ordre, du LoRA 1 au LoRA N.
 
-Ce pack de nœuds personnalisés pour ComfyUI n'a pas de dépendances Python directes
+Ce pack de nœuds personnalisés pour ComfyUI n'a pas de dépendances Python directes*.
 Dépendances principales (à installer séparément dans ComfyUI) :
 ComfyUI (https://github.com/comfyanonymous/ComfyUI)
 ComfyUI-nunchaku (https://github.com/mit-han-lab/ComfyUI-nunchaku)
