@@ -1,5 +1,7 @@
 # ComfyUI Stacked FLUX Nunchaku LoRA Loaders
 
+![image](https://github.com/user-attachments/assets/0c9a85c3-c9c7-4aef-9d49-f9c812a5e736)
+
 Ce dépôt contient un ensemble de nœuds personnalisés pour [ComfyUI](https://github.com/comfyanonymous/ComfyUI) qui permettent d'appliquer plusieurs LoRAs FLUX en série à un modèle, en utilisant la logique de chargement du pack [ComfyUI-nunchaku](https://github.com/mit-han-lab/ComfyUI-nunchaku).
 
 Cela simplifie les workflows en réduisant le nombre de nœuds nécessaires pour appliquer une chaîne de LoRAs.
