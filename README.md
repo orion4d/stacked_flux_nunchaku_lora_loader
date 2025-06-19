@@ -1,6 +1,6 @@
 # ComfyUI Stacked FLUX Nunchaku LoRA Loaders
 
-Ce dépôt contient un ensemble de nœuds personnalisés pour [ComfyUI](https://github.com/comfyanonymous/ComfyUI) qui permettent d'appliquer plusieurs LoRAs FLUX en série à un modèle, en utilisant la logique de chargement du pack [ComfyUI-nunchaku](https://github.com/jags111/ComfyUI-nunchaku) (par jags).
+Ce dépôt contient un ensemble de nœuds personnalisés pour [ComfyUI](https://github.com/comfyanonymous/ComfyUI) qui permettent d'appliquer plusieurs LoRAs FLUX en série à un modèle, en utilisant la logique de chargement du pack [ComfyUI-nunchaku](https://github.com/mit-han-lab/ComfyUI-nunchaku).
 
 Cela simplifie les workflows en réduisant le nombre de nœuds nécessaires pour appliquer une chaîne de LoRAs.
 
@@ -24,7 +24,7 @@ Chaque nœud se trouve dans la catégorie `loaders/nunchaku_stackers` après ins
 
 1.  **Prérequis :**
     *   Assurez-vous d'avoir [ComfyUI](https://github.com/comfyanonymous/ComfyUI) installé et fonctionnel.
-    *   Vous devez avoir le pack de nœuds [ComfyUI-nunchaku](https://github.com/jags111/ComfyUI-nunchaku) (par jags) installé, car ce stacker dépend de son chargeur LoRA FLUX. Vous pouvez l'installer via le [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager) ou manuellement.
+    *   Vous devez avoir le pack de nœuds [ComfyUI-nunchaku](https://github.com/mit-han-lab/ComfyUI-nunchaku) installé, car ce stacker dépend de son chargeur LoRA FLUX. Vous pouvez l'installer via le [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager) ou manuellement.
 
 2.  **Installation de ce pack de nœuds :**
     *   **Avec ComfyUI Manager (Recommandé) :**
@@ -55,16 +55,8 @@ Chaque nœud se trouve dans la catégorie `loaders/nunchaku_stackers` après ins
 
 Les LoRAs sont appliqués dans l'ordre, du LoRA 1 au LoRA N.
 
-# requirements.txt
+Ce pack de nœuds personnalisés pour ComfyUI n'a pas de dépendances Python directes
+Dépendances principales (à installer séparément dans ComfyUI) :
+ComfyUI (https://github.com/comfyanonymous/ComfyUI)
+ComfyUI-nunchaku (https://github.com/mit-han-lab/ComfyUI-nunchaku)
 
-# Ce pack de nœuds personnalisés pour ComfyUI n'a pas de dépendances Python directes
-# installables via pip au-delà de celles de ComfyUI lui-même.
-
-# Dépendances principales (à installer séparément dans ComfyUI) :
-# - ComfyUI (https://github.com/comfyanonymous/ComfyUI)
-# - ComfyUI-nunchaku (https://github.com/jags111/ComfyUI-nunchaku)
-
-# Les bibliothèques Python standard utilisées (généralement incluses avec Python ou ComfyUI) :
-# - torch (fourni par l'installation de ComfyUI)
-# - folder_paths (module interne de ComfyUI)
-# - sys (standard Python)
