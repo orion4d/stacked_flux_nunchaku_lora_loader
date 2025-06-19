@@ -27,7 +27,7 @@ Chaque nœud se trouve dans la catégorie `loaders/nunchaku_stackers` après ins
     *   Vous devez avoir le pack de nœuds [ComfyUI-nunchaku](https://github.com/mit-han-lab/ComfyUI-nunchaku) installé, car ce stacker dépend de son chargeur LoRA FLUX. Vous pouvez l'installer via le [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager) ou manuellement.
 
 2.  **Installation de ce pack de nœuds :**
-    *   **Avec ComfyUI Manager (En cours) :**
+    *   **Avec ComfyUI Manager (En cours de validation) :**
         1.  Ouvrez le ComfyUI Manager.
         2.  Cliquez sur "Install Custom Nodes".
         3.  Recherchez `[stacked_flux_nunchaku_lora_loader]` et installez-le.
